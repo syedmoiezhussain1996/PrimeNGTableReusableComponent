@@ -38,12 +38,14 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { ErrorComponent } from './components/error/error.component';
 import { PrimengTableComponent } from './components/primeng-table/primeng-table.component';
+import { PrimengTableSourceComponent } from './components/primeng-table-dataSource/primeng-table-dataSource.component';
 
 @NgModule({
   declarations: [
     AppComponent,
 
     PrimengTableComponent,
+    PrimengTableSourceComponent,
     HomeComponent,
     ErrorComponent
   ],
